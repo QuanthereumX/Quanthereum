@@ -1,0 +1,47 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Git & logs
+*.log
+*.lock
+*.cache
+*.env
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Rust
+target/
+Cargo.lock
+
+# Node.js / JavaScript
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Solidity / Hardhat
+artifacts/
+cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE / Code Editors
+.vscode/
+.idea/
+*.iml
+
+# Compiled binary files
+*.o
+*.so
+*.a
+*.out
+*.exe
